@@ -131,7 +131,7 @@ class _GamePageState extends State<GamePage> {
                 style: TextStyle(color: Colors.white),
           ),
           content: Text(
-              "Your game is over HAHA NOOB :D , Your score is " +score.toString()+".",style: TextStyle(color: Colors.white,fontSize: 20),
+              "Your game is over, Please Try Again , Your score is " +score.toString()+".",style: TextStyle(color: Colors.white,fontSize: 20),
           ),
           actions: [
             TextButton(onPressed: () async{
